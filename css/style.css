@@ -1,0 +1,173 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.intro{
+  height: 100vh;
+  background: url('../img/BackIntro.png') no-repeat center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.intro > div:nth-child(1){
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.intro > div:nth-child(1) > div:nth-child(1) {
+  display: flex;
+  align-items: center;
+  padding: 18px 0;
+}
+
+.intro > div:nth-child(1) > div:nth-child(1) img{
+  height: 111px;
+}
+
+.intro > div:nth-child(1) h1{
+  color: white;
+  font-family: "Futura",Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 53px;
+  width: 231px;
+  line-height: 45px;
+  margin-left: -30px;
+}
+
+.intro > div:nth-child(1) > div:nth-child(2) img{
+  width: 35px;
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+.intro > div:nth-child(2) > div > div{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.intro > div:nth-child(2) > div > div > img{
+  width: 406px;
+  transform: rotate(-37deg);
+  position: relative;
+  top: 95px;
+}
+
+.intro > div:nth-child(2) > div > div > ul{
+  display: flex;
+  gap: 17px;
+}
+
+.intro > div:nth-child(2) > div > div > ul li{
+  position: relative;
+  cursor: pointer;
+  transition: .5s ease-in-out;
+  transition-timing-function: cubic-bezier(0.2, 1, 0.2, 1.4);
+}
+
+.intro > div:nth-child(2) > div > div > ul li:hover{
+  transform: scale(1.1);
+}
+
+.intro > div:nth-child(2) > div > div > ul li:nth-child(1){top: 28px; }
+.intro > div:nth-child(2) > div > div > ul li:nth-child(2){top: 19px; }
+.intro > div:nth-child(2) > div > div > ul li:nth-child(3){top: 11px; }
+
+.section_margin{
+  margin: 100px 0;
+}
+
+.introdução{
+  margin: 170px 0;
+}
+
+.title{
+  font-family: 'Futura',Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.subtitle{
+  font-family: "Poppins",sans-serif, monospace;
+  font-size: 16px;
+}
+
+.introdução > div > div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.introdução > div > div > div:nth-child(1){
+  width: 495px;
+}
+
+.introdução > div > div > div:nth-child(2){
+  width: 485px;
+}
+
+.introdução > div > div > div:nth-child(1) p{
+  text-indent: 25px;
+  margin: 15px 0 20px 0;
+}
+
+.introdução > div > div > div:nth-child(1) h2{
+  color: #3262C2;
+  transform: rotate(-4deg) translateX(-25px);
+}
+
+.introdução > div > div > div:nth-child(1) a{
+  background: black;
+  display: flex;
+  transform: skew(-20deg);
+  position: relative;
+  flex-direction: column;
+  height: 35px;
+  width: 234px;
+  color: white;
+  border-radius: 3px;
+  padding: 1px 15px;
+}
+
+.introdução > div > div > div:nth-child(1) a span{
+  font-family: Rajdhani, Arial, Helvetica, sans-serif;
+  font-weight: 550;
+  letter-spacing: .5px;
+}
+
+.introdução > div > div > div:nth-child(1) a span:nth-child(1){
+  font-size: 18px;
+  transform: skew(20deg);
+}
+.introdução > div > div > div:nth-child(1) a span:nth-child(2){
+  font-size: 11px;
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  transform: skew(20deg);
+}
